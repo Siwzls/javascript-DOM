@@ -4,7 +4,6 @@ window.addEventListener("load", function()
 
   animation.addEventListener('click', (e) => 
   {
-    if(e.target.id == 'more_text_link')
-      document.getElementById('more_text_content').style.display = "block";
+    document.getElementById('more_text_content').style.display = "block";
   });
 });
